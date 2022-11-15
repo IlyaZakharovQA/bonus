@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        int account = 50; // изначально на счету
-        int refillBonus = 1000; // условие начисления бонусов
-        int refill = 2500; // сумма пополнения
+        int account = 5; // изначально на счету
+        int refill = 300; // сумма пополнения
         int bonus;
         if (refill >=1000) {
             bonus = refill / 100;
